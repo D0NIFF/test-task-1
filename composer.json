@@ -1,0 +1,19 @@
+{
+  "name": "a/a",
+  "description": "Some text",
+  "authors": [
+    {
+      "name": "D0NIFF",
+      "email": "support@example.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app"
+    }
+  }
+}
